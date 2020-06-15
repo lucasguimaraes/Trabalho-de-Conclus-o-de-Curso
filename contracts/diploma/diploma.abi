@@ -1,0 +1,268 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "erase",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "tdiploma",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "name"
+                },
+                {
+                    "name": "id",
+                    "type": "string"
+                },
+                {
+                    "name": "signature",
+                    "type": "string"
+                },
+                {
+                    "name": "nacionalidade",
+                    "type": "string"
+                },
+                {
+                    "name": "naturalidade",
+                    "type": "string"
+                },
+                {
+                    "name": "cpf",
+                    "type": "string"
+                },
+                {
+                    "name": "rg",
+                    "type": "string"
+                },
+                {
+                    "name": "data_nascimento",
+                    "type": "string"
+                },
+                {
+                    "name": "nome",
+                    "type": "string"
+                },
+                {
+                    "name": "codigo_mec",
+                    "type": "string"
+                },
+                {
+                    "name": "cnpj",
+                    "type": "string"
+                },
+                {
+                    "name": "endereco",
+                    "type": "string"
+                },
+                {
+                    "name": "credenciamento",
+                    "type": "string"
+                },
+                {
+                    "name": "mantenedora",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_curso",
+                    "type": "string"
+                },
+                {
+                    "name": "codigo_curso_mec",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_habilitacao",
+                    "type": "string"
+                },
+                {
+                    "name": "modalidade",
+                    "type": "string"
+                },
+                {
+                    "name": "titulo_conferido",
+                    "type": "string"
+                },
+                {
+                    "name": "grau_conferido",
+                    "type": "string"
+                },
+                {
+                    "name": "filiacao",
+                    "type": "string"
+                },
+                {
+                    "name": "historico_escolar",
+                    "type": "string"
+                },
+                {
+                    "name": "carga_horaria_curso",
+                    "type": "string"
+                },
+                {
+                    "name": "ingresso_curso",
+                    "type": "string"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                },
+                {
+                    "name": "forma_acesso",
+                    "type": "string"
+                },
+                {
+                    "name": "data_conclusao",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "upsert",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "id",
+                    "type": "string"
+                },
+                {
+                    "name": "signature",
+                    "type": "string"
+                },
+                {
+                    "name": "nacionalidade",
+                    "type": "string"
+                },
+                {
+                    "name": "naturalidade",
+                    "type": "string"
+                },
+                {
+                    "name": "cpf",
+                    "type": "string"
+                },
+                {
+                    "name": "rg",
+                    "type": "string"
+                },
+                {
+                    "name": "data_nascimento",
+                    "type": "string"
+                },
+                {
+                    "name": "nome",
+                    "type": "string"
+                },
+                {
+                    "name": "codigo_mec",
+                    "type": "string"
+                },
+                {
+                    "name": "cnpj",
+                    "type": "string"
+                },
+                {
+                    "name": "endereco",
+                    "type": "string"
+                },
+                {
+                    "name": "credenciamento",
+                    "type": "string"
+                },
+                {
+                    "name": "mantenedora",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_curso",
+                    "type": "string"
+                },
+                {
+                    "name": "codigo_curso_mec",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_habilitacao",
+                    "type": "string"
+                },
+                {
+                    "name": "modalidade",
+                    "type": "string"
+                },
+                {
+                    "name": "titulo_conferido",
+                    "type": "string"
+                },
+                {
+                    "name": "grau_conferido",
+                    "type": "string"
+                },
+                {
+                    "name": "filiacao",
+                    "type": "string"
+                },
+                {
+                    "name": "historico_escolar",
+                    "type": "string"
+                },
+                {
+                    "name": "carga_horaria_curso",
+                    "type": "string"
+                },
+                {
+                    "name": "ingresso_curso",
+                    "type": "string"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                },
+                {
+                    "name": "forma_acesso",
+                    "type": "string"
+                },
+                {
+                    "name": "data_conclusao",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "erase",
+            "type": "erase",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "upsert",
+            "type": "upsert",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "aluno",
+            "type": "tdiploma",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

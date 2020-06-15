@@ -1,0 +1,25 @@
+Private key: 5JXeMjA515oCoTpGcoq2zFKJ4Hb6avqz9PgzsQPsXNdwoajSjDp
+Public key: EOS5ohkB6jFuEKf76ScpAoG5mNs1kJ9wAL3p2zssVuUWrG673b4GR
+
+
+
+cleos create account eosio hello EOS5ohkB6jFuEKf76ScpAoG5mNs1kJ9wAL3p2zssVuUWrG673b4GR -p eosio@active
+
+
+
+senha wallet: PW5J5U9KRFpSskTAEVG65HRgtKyABRahEbFjN9yv4gka3nDEiaiN9
+
+public key
+EOS742sXxA8ht3kyVUJZX2nppfhhFJT1izMvNfeCbphG4UMi73yiZ
+private
+5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+
+
+
+
+EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+EOS742sXxA8ht3kyVUJZX2nppfhhFJT1izMvNfeCbphG4UMi73yiZ
+
+
+cleos push action diploma upsert '["alice", "1", "2", "brasileiro", "brasileiro", "08420791652", "14789840", "27121990", "lucas", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste", "teste"]' -p alice@active
+
